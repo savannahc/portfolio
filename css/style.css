@@ -1,3 +1,124 @@
-h1 {
+body {
+  background-color: #f9f9fa;
   font-family: "brandon-grotesque", sans-serif;
+  font-size: 18px;
 }
+
+/*Nav Bar*/
+
+nav {
+  display: inline-flex;
+  font-size: .9rem;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav ul {
+  padding-right: 1rem;
+}
+
+nav li {
+  display: inline-flex;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+/*footer*/
+
+/*backgrounds*/
+
+.black-background {
+  background-color: #0e0a0a;
+  color: #f9f9fa;
+}
+
+.blue-background {
+  background-color: #514394;
+  color: #f9f9fa;
+}
+
+/*icons + email*/
+
+/*typography*/
+
+h1 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 2.1rem;
+}
+
+h2 {
+  font-size: 1.424rem;
+  font-style: italic;
+  line-height: 2.1rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+h4 {
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+}
+
+h5 {
+  font-weight: normal;
+  line-height: 1.4rem;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #514394;
+}
+
+a:clicked {
+  color: #f0534f;
+}
+
+/*text container*/
+
+.text {
+  width: 45%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/*buttons*/
+
+button {
+  border: 3px solid #514394;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* half screen box*/
+
+.half-box {
+  display: inline-grid;
+  height: 7rem;
+  width: 47%;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+/*footer*/

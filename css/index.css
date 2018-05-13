@@ -1,0 +1,83 @@
+header {
+  background-image: url("/images/headshot.jpg");
+  background-size: 100%;
+  color: #fafaf9;
+  height: 600px;
+  position: relative;
+}
+
+.hero h1 {
+  width: 30%;
+  position: absolute;
+  bottom: 20%;
+  margin-left: 2rem;
+}
+
+/*work*/
+
+#work {
+  margin: 5rem 0 2rem 0;
+}
+
+#work h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*About Section*/
+
+#about {
+  margin: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+#about button {
+  margin-top: 1.5rem;
+}
+
+#contact {
+  margin: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+#contact h1 {
+  margin-bottom: 2rem;
+}
+
+/*form*/
+
+.justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+input, textarea {
+  border: .5px solid #514394;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  padding: .3rem;
+  margin-top: 11rem;
+}
+
+input.justify {
+  margin-bottom: .7rem;
+}
+
+textarea.justify {
+  margin-bottom: .7rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+img.icon {
+  padding: .5%;
+  margin: 2rem 0 2rem 0;
+}

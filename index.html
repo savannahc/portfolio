@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Savannah Carlin | UX Portfolio</title>
-  <!--<link rel="stylesheet" href="css/reset.css">-->
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.typekit.net/zeu4lex.css">
 </head>
@@ -14,8 +15,8 @@
 
 <body class=".tk-brandon-grotesque">
   <!--Nav Bar-->
-  <nav>
-    <a href="index.html"><img src="images/logo.png" alt="" height="" width=""></a>
+  <nav class="black-background">
+    <a href="index.html"><img src="images/logo.png" alt="" height="50" width=""></a>
     <ul>
       <li><a href="index.html#work">WORK</a></li>
       <li><a href="about.html">ABOUT</a></li>
@@ -23,52 +24,56 @@
     </ul>
   </nav>
   <!--Hero-->
-  <header>
-    <h1>Hi! I’m Savannah, an entrepreneurial  Product Designer based in NYC. I use design to build a fairer world.</h1>
+  <header class="hero">
+    <h1 class="hero-text">Hi! I’m Savannah, an entrepreneurial  Product Designer based in NYC. I use design to build a fairer world.</h1>
   </header>
   <!--See My Work section-->
-  <section id="work">
+  <section id="work" class="">
+    <h1>My work</h1>
     <a href="casestudy1.html">
-      <div>
+      <div class="half-box black-background">
         <h3>Forget Me Not</h3>
         <h5> Link Saving Tools are graveyards for what you forgot to read.<br>Forget Me Not helps you remember the links you save. </h5>
       </div>
     </a>
     <a href="casestudy2.html">
-      <div>
+      <div class="half-box blue-background">
         <h3>Case Study 2</h3>
-        <h5>Coming Soon</h5>
+        <p>Coming Soon</p>
       </div>
     </a>
     <a href="casestudy3.html">
-      <div>
+      <div class="half-box blue-background">
         <h3>Case Study 3</h3>
         <h5>Coming Soon</h5>
       </div>
     </a>
     <a href="other.html">
-      <div>
+      <div class="half-box black-background">
         <h3>Other Work</h3>
         <h5>Samples of my graphic and web design projects for various clients.</h5>
       </div>
     </a>
   </section>
   <!--About Me Section-->
-  <section>
+  <section id="about">
     <h1>See what makes me tick</h1>
-    <a href="about.html"><button>Read my bio</button></a>
+    <a href="about.html"><button class="blue-background">Read my bio</button></a>
   </section>
   <!--Contact Me Section-->
   <section id="contact">
+    <h1>Get in touch</h1>
     <form>
-      <input type="text" name="Your Name"></input>
-      <input type="text" name="Email"></input>
-      <input type="text" name="What do you want to chat about?"></input>
-      <input type="submit">Say hi</input>
+      <input class="justify" type="text" name="name" placeholder="Your Name"></input>
+      <input class="justify" type="text" name="email" placeholder="Your Email"></input>
+      <textarea class="justify" type="text" name="message" placeholder="What do you want to chat about?"></textarea>
+      <a class="justify" href="about.html"><button class="blue-background" type="submit">Say hi</button></a>
     </form>
   </section>
   <!--footer-->
   <footer>
+    <img class="icon" src="images/github.png" alt="" height="35px">
+    <img class="icon" src="images/linkedin.png" alt="" height="35px">
   </footer>
 </body>
 
