@@ -17,7 +17,7 @@
   <!--Nav Bar-->
   <nav class="black-background">
     <a href="index.html"><img src="images/logo.png" alt="" height="50" width=""></a>
-    <ul>
+    <ul class="no-bullets">
       <li><a href="index.html#work">WORK</a></li>
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="index.html#contact">CONTACT</a></li>
@@ -25,23 +25,24 @@
   </nav>
   <!--Hero-->
   <header class="hero">
-    <h1 class="">Forget Me Not is a responsive link saving website that helps users remember the information in the links they save. Forget Me Not makes information and learning more accessible by helping people learn more from what they already read.</h1>
+    <h1 class="">Forget Me Not is a responsive link saving website that helps users remember the information in the links they save. Forget Me Not makes information and learning more accessible by helping people learn more from what they already read.<br><br></h1>
     <a href="https://invis.io/98GK5VITSFC" target="_blank"><button class="blue-background">View the Prototype</button></a>
   </header>
   <!--Summary Section-->
-  <section>
+  <section class="summary">
     <!--my role-->
-    <div>
+    <div class="half-box">
       <h3>My Role</h3>
-      <p>I developed Forget Me Not as a side project over the course of several weeks.I was responsible for all aspects of the research, design, and creation of an interactive prototype.
-      </p>
+      <h5>I developed Forget Me Not as a side project over the course of several weeks.<br><br> I was responsible for all aspects of the research, design, and creation of an interactive prototype.
+      </h5>
+      <!--tools-->
+      <br><br>
+      <h3>My Tools</h3>
+      <h5>Illustrator<br>Sketch<br>Invision</h5><br>
     </div>
-    <!--tools-->
-    <h3>My Tools</h3>
-    <p>Illustrator<br>Sketch<br>Invision</p>
     <!--My Process-->
-    <h3>My Process</h3>
-    <nav>
+    <div class="half-box">
+      <h3>My Process</h3>
       <ul class="casestudy-process">
         <li><a href="#discover">Discover</a></li>
         <li><a href="#define">Define</a></li>
@@ -49,17 +50,17 @@
         <li><a href="#test">Test & Refine</a></li>
         <li><a href="#deliver">Deliver & Reflect</a></li>
       </ul>
-    </nav>
+    </div>
   </section>
   <!--Problem & Solution Section-->
-  <section>
+  <section class="problem-solution">
     <!--Problem-->
     <div class="half-box black-background">
       <h3>Problem</h3>
       <p>There are many tools for link saving, but no single leading platform. Why?
 
         <strong>Core issue: All are link “graveyards”,</strong> like my pocket dashboard below . I don’t know what to read first.</p>
-      <img src="images/casestudy1/pocket.png" height="300px">
+      <img src="images/casestudy1/pocket.png" height="300px"><br>
     </div>
     <!--Solution-->
     <!--for desktop size, width 50% display, inline block-->
@@ -68,33 +69,38 @@
       <p>Forget Me Not makes it easy for users to save and remember what’s in their links.
 
         <strong>Forget Me Not is a tool optimized for reading and remembering links, not just saving them</strong></p>
-      <img src="images/casestudy1/mobiledashboard.png" height="300px">
+      <img src="images/casestudy1/mobiledashboard.png" height="300px"><br>
     </div>
 
   </section>
 
   <!--Discover Section-->
   <section id="discover">
-    <h2>Discover</h2>
+
     <!--Survey Section-->
-    <div class="">
+    <div class="text">
+      <h2>Discover</h2>
       <h3>SURVEY</h3>
-      <p>I began with a survey to answer some questions I had:</p>
-      <ul>
+      <h5>I began with a survey to answer some questions I had:</h5>
+      <ul><br>
         <li>How are people saving links?</li>
         <li>What works?</li>
         <li>What doesn’t?</li>
-        <li>What do they want to change about it?</li>
+        <li>What do they want to change about it?</li><br>
       </ul>
-      <p>I got:</p>
+
+
+      <h5>I got:</h5>
       <figure>
         55
       </figure>
       <figcaption>responses</figcaption>
+      <h5>from</h5>
       <figure>
         20+
       </figure>
       <figcaption>U.S. Cities</figcaption>
+
       <h4>To dig deeper, I looked at respondents who saved a lot of articles online. Their responses surprised me.</h4>
       <figure>
         19%
@@ -104,212 +110,244 @@
         100%
       </figure>
       <figcaption>of the Article Savers who used a specialized link saving tool like pocket also emailed links to themselves </figcaption>
-      <h4>Email isn’t designed for link saving or reading, why was it so popular? What were all these tools missing?</h4>
+      <h3>Email isn’t designed for link saving or reading, why was it so popular? What were all these tools missing?</h3><br><br>
       <button type="button" name="button">Read the full survey, results, and analysis</button>
     </div>
     <!--Personas-->
-    <div class="">
+
+    <div class="text">
       <h3>PERSONAS</h3>
-      <p>I made two personas to refelct my survey results: </p>
-      <div class="">
-        <img src="images/casestudy1/bobby.png" alt="">
-        <div class="">
-          <h4>Bobby</h4>
-          <p>20<br> Busy College student working towards Bachelor’s Degree in Philadelphia<br><br> Bobby spends at least a couple hours on different social media sites every day. He saves lots of articles to read later because he never quite seems to have
-            the time to finish them. He also uses the web to find articles for class projects and research papers. Bobby uses pocket, email, and saves a lot of things on Facebook as well but doesn’t really have a system. </p>
-        </div>
+      <h5>I made two personas to reflect my survey results: </h5><br>
+    </div>
+    <div class="half-box persona">
+      <img src="images/casestudy1/bobby.png" alt="" height="175px">
+      <div class="small-box">
+        <h4><strong>Bobby</strong></h4>
+        <h5>20<br> Busy college student working towards Bachelor’s Degree in Philadelphia<br><br> Bobby spends at least a couple hours on different social media sites every day. He saves lots of articles to read later because he never quite seems to have
+            the time to finish them. He also uses the web to find articles for class projects and research papers. Bobby uses pocket, email, and saves a lot of things on Facebook as well but doesn’t really have a system. </h5>
       </div>
-      <div class="">
-        <img src="images/casestudy1/regina.png" alt="">
-        <div class="">
-          <h4>Regina</h4>
-          <p>24<br> B.S. in Communications from Swarthmore Young marketer living in Brooklyn <br><br> Regina is a self-improver. She works hard at her job and she’s always saving links that help her work better, get healthier, and stay informed. She uses
+    </div>
+    <div class="half-box persona">
+      <img src="images/casestudy1/regina.png" alt="" height="175px">
+      <div class="small-box">
+        <h4><strong>Regina</strong></h4>
+        <h5>24<br> B.S. in Communications, young marketer living in NYC <br><br> Regina is a self-improver. She works hard at her job and she’s always saving links that help her work better, get healthier, and stay informed. She uses
             Facebook Save, plus she emails herself tons of links everyday. She uses her different email accounts to keep track of all her links. She’s tried Flipboard and Pinterest but neither of them really stuck.
-          </p>
-        </div>
+          </h5>
       </div>
-      <button type="button" name="button">Read more about Bobby & Regina</button>
+    </div>
+    <div class="text">
+      <br><br><button type="button" name="button">Read more about Bobby & Regina</button>
     </div>
     <!--Competitive Analysis-->
-    <div class="">
+    <div class="text">
       <h3>COMPETITIVE ANALYSIS</h3>
-      <img src="images/casestudy1/logos.png" alt="">
-      <h4>Strengths & Weaknesses:</h4>
-      <ul>
+      <img src="images/casestudy1/logos.png" height="70px">
+      <br><br>
+      <h3>Strengths & Weaknesses:</h3>
+      <ul class="bullets">
         <li>Simple, easy ways to save links</li>
         <li>Organize links through folders</li>
         <li>No reminders to view unread links</li>
-        <li>None are designed to help you remember your link and what was in it</li>
-      </ul>
-      <h4>Opportunities</h4>
-      <ul>
+        <li>None are designed to help you remember your link</li>
+      </ul><br><br>
+      <h3>Opportunities</h3>
+      <ul class="bullets">
         <li>Have a simple interface with just a few key features</li>
         <li>Work across devices</li>
         <li>Fit into users’ existing habits</li>
         <li>Help them remember what and why they were saving </li>
-      </ul>
+      </ul><br><br>
       <button type="button" name="button">Read the full competitive analysis</button>
     </div>
   </section>
 
   <!--Define Section-->
   <section id="define" class="black-background">
-    <h2>Define</h2>
+
     <!--User Stories-->
-    <div class="">
+    <div class="text">
+      <h2>Define</h2><br>
       <h3>USER STORIES</h3>
-      <p>I focused on creating four core user stories from my research and personas:</p>
-      <div class="">
-        <h4>“As a new or returning user, I want to <strong>save a link</strong> so that I can gather helpful and interesting content from around the web” <br> <br>“As a new or returning user, I want to <strong>remember to read a link</strong> so that all my collecting isn't a waste”</h4>
-      </div>
-      <div class="">
-        <h4>“As a new or returning user, I want to <strong>get rid of old links</strong> I don't care about so that I don’t have an overwhelming number of old links” <br> <br>“As a new or returning user, I want to <strong>remember what's in a link</strong> so that I get something out of what I save”</h4>
-      </div>
-      <p>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved.</p>
-      <button type="button" name="button">Read the user stories</button>
+      <h5>I focused on creating four core user stories from my research and personas:</h5>
     </div>
+    <div id="quote">
+      <div class="half-box">
+        <h2>“As a new or returning user, I want to <strong>save a link</strong> so that I can gather helpful and interesting content from around the web” <br> <br>“As a new or returning user, I want to <strong>remember to read a link</strong> so that all my collecting isn't a waste”</h2>
+      </div>
+      <div class="half-box">
+        <h2>“As a new or returning user, I want to <strong>get rid of old links</strong> I don't care about so that I don’t have an overwhelming number of old links” <br> <br>“As a new or returning user, I want to <strong>remember what's in a link</strong> so that I get something out of what I save”</h2>
+      </div>
+    </div>
+    <div class="text">
+      <h5>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved.</h5>
+      <br><br><button type="button" name="button" class="blue-background">Read the user stories</button>
+    </div>
+
+
     <!--User Flows-->
-    <div class="">
+    <div class="text">
       <h3>USER FLOWS</h3>
-      <h4>From my survey I wanted to avoid the mistakes of other link saving tools. I didn’t want to make users to learn new platform, instead I wanted to <strong>fit into what they were already doing</strong> (aka let them KEEP emailing links to themselves!) <br>My goal was to <strong>use the science of reading retention</strong> while keeping my platform simple and intuitive.<br><br>User flow for saving links through email: </h4>
-      <img src="images/casestudy1/emailflow.png" alt="" height="200px">
-      <button type="button" name="button">See all the user flows</button>
+      <h4>From my survey I wanted to avoid the mistakes of other link saving tools. I didn’t want to make users to learn new platform, instead I wanted to <strong>fit into what they were already doing</strong> (aka let them KEEP emailing links to themselves!) <br><br>My goal was to <strong>use the science of reading retention</strong> while keeping my platform simple and intuitive.<br><br>User flow for saving links through email: </h4>
+    </div>
+    <br><img src="images/casestudy1/emailflow.png" alt="" height="200px">
+    <div class="text">
+      <button type="button" name="button" class="blue-background">See all the user flows</button>
     </div>
   </section>
 
   <!--Design Section-->
   <section id="design">
-    <h2>Design</h2>
+    <div class="text">
+      <h2>Design</h2><br>
+      <h3>SKETCHES & WIREFRAMES</h3>
+    </div>
+
     <!--Sketches & Wireframes-->
-    <div class="">
-      <div class="">
-        <h3>SKETCHES & WIREFRAMES</h3>
-        <p>I began to sketch and test my initial ideas for an interface.</p>
-      </div>
-      <div class="">
-        <img src="images/casestudy1/sketch1.png" alt="" height="200px">
-        <img src="images/casestudy1/sketch2.png" alt="" height="200px">
-        <img src="images/casestudy1/sketch3.png" alt="" height="200px">
-      </div>
-      <div class="">
-        <img src="images/casestudy1/wireframe1.png" alt="" height="200px">
-        <img src="images/casestudy1/wireframe2.png" alt="" height="200px">
-        <img src="images/casestudy1/wireframe3.png" alt="" height="200px">
-      </div>
-      <div class="">
-        <p>I created some initial wireframes, made an interactive prototype from them, and did 3 user tests to see if my interface was usable.</p>
-      </div>
-      <h4>After seeking some feedback, I realized that I needed to get clear on what Forget Me Not would be: an app or website?</h4>
-      <p> I realized that a responsive website would be the fastest way to see if there was a demand for a tool like Forget Me Not. I revised my wireframes to make this clear.<br> <br> I also learned that categories were more important to users than I realized,
-        so I needed to add them and clarify the priority levels.</p>
+    <div class="half-box" id="sketches">
+      <h5>I began to sketch and test my initial ideas for an interface.</h5>
+    </div>
+    <div class="half-box">
+      <img src="images/casestudy1/sketches.png" alt="" height="200px">
+    </div>
+    <div class="half-box">
+      <img src="images/casestudy1/wireframes_v1.png" alt="" height="200px">
+    </div>
+    <div class="half-box" id="sketches">
+      <h5>I created some initial wireframes, made an interactive prototype from them, and did 3 user tests to see if my interface was usable.</h5>
+    </div>
+    <div class="text">
+      <h3>After seeking some feedback, I realized that I needed to get clear on what Forget Me Not would be: an app or website?</h3>
+      <h5> I realized that a responsive website would be the fastest way to see if there was a demand for a tool like Forget Me Not. I revised my wireframes to make this clear.<br> <br> I also learned that categories were more important to users than I realized,
+        so I needed to add them and clarify the priority levels.</h5>
+    </div>
+    <div class="text">
       <button type="button" name="button">See the low-fi prototype</button>
       <button type="button" name="button">See the test results</button>
     </div>
+
     <!--Branding-->
-    <div class="">
+    <div class="text">
       <h3>BRANDING</h3>
-      <p>Several ideas came up over and over as I developed Forget Me Not:</p>
+      <h5>Several ideas came up over and over as I developed Forget Me Not:</h5>
       <ul>
+        <br>
         <li><strong>Clarity </strong>· Forget Me Not is about bringing clarity to link saving and to what you remember from the links you save.</li>
+        <br>
         <li><strong>Simplicity </strong>· Forget Me Not is a simple and practical solution that doesn’t rely on complicated features or learning how to use another app.</li>
+        <br>
         <li><strong>Intuition </strong>· Forget Me Not is about simple, intuitive actions that help you get more out of the time you spend reading online.</li>
+        <br>
         <li><strong>Brightness</strong>· Forget Me Not helps people remember what they read so they can learn better and feel brighter.</li>
       </ul>
-      <p>I used these to develop a visual identity for Forget Me Not, beginning with mind maps and moodboards and ending with a full brand guide that included copy tone, color palette, logos, and typefaces.</p>
-      <div class="">
-        <img src="images/casestudy1/mindmap.png" alt="" height="500px">
-        <img src="images/casestudy1/logoevolution.png" alt="" height="400px">
-        <img src="images/casestudy1/logofinal.png" alt="" height="100px">
-        <img src="images/casestudy1/typography.png" alt="" height="400px">
-        <img src="images/casestudy1/colors.png" alt="" height="200px">
-      </div>
+      <br>
+      <h5>I used these to develop a visual identity for Forget Me Not, beginning with mind maps and moodboards and ending with a full brand guide that included copy tone, color palette, logos, and typefaces.</h5>
     </div>
+    <div class="half-box persona">
+      <img src="images/casestudy1/mindmap.png" alt="" height="500px">
+    </div>
+    <div class="half-box persona">
+      <img src="images/casestudy1/logo_evolution.png" alt="" height="500px">
+    </div>
+
+    <div class="half-box persona">
+      <br><br> <img src="images/casestudy1/typography.png" alt="" height="400px">
+    </div>
+    <div class="half-box persona">
+      <br><br><img src="images/casestudy1/colors.png" alt="" height="200px">
+    </div>
+
     <!--Hi Fi Mockups-->
-    <div class="">
+    <div class="text">
       <h3>HI-FI MOCKUPS</h3>
-      <p>I revised my low-fi mockups to streamline the onboarding and saving and made my first hi-fi mockups.</p>
-      <img src="images/casestudy1/hifi1_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi2_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi3_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi4_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi5_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi6_v1.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi7_v1.png" alt="" height="300px">
+      <h5>I revised my low-fi mockups to streamline the onboarding and saving and made my first hi-fi mockups.</h5> <br>
+      <img src="images/casestudy1/hifi_v1.png" alt="" height="650px">
     </div>
   </section>
   <!--Test & Refine Section-->
   <section id="test" class="black-background">
     <!--Usability Testing-->
-    <div>
-      <h2>Test & Refine</h2>
+    <div class="text">
+      <h2>Test & Refine</h2><br>
       <h3>USABILITY TESTING</h3>
-      <p>I did usability testing and more user testing to refine some of my key design decisions.</p>
-      <div class="">
-        <h4>Which selected page view?</h4>
-        <img src="images/casestudy1/pageview.png" alt="" height="400px">
-      </div>
-      <div class="">
-        <h4>Which “read” button?</h4>
-        <img src="images/casestudy1/readbutton.png" alt="" height="400px">
-      </div>
-      <div class="">
-        <h4>Which retention prompt?</h4>
-        <img src="images/casestudy1/readprompt.png" alt="" height="400px">
-      </div>
-      <h4>From my testing, I realized I had several areas to improve:</h4>
-      <ul>
-        <li>The multi-colored tags were confusing</li>
-        <li>The email feature needed better explanation</li>
-        <li>The priority levels still needed to be clearer</li>
-        <li>The remember button had mixed results, but no clear winner. There had to be a simple, less obtrusive way to get users to do the remember sequence</li>
-      </ul>
-      <button type="button" name="button">See user test results</button>
-      <button type="button" name="button">See usability test results</button>
+      <h5>I did usability testing and more user testing to refine some of my key design decisions.</h5>
     </div>
+    <div class="third-box">
+      <h4>Which selected page view?</h4> <br>
+      <img src="images/casestudy1/pageview.png" alt="" height="150px">
+    </div>
+    <div class="third-box">
+      <h4>Which “read” button?</h4> <br>
+      <img src="images/casestudy1/readbutton.png" alt="" height="150px">
+    </div>
+    <div class="third-box">
+      <h4>Which retention prompt?</h4> <br>
+      <img src="images/casestudy1/readprompt.png" alt="" height="400px">
+    </div>
+    <div class="text">
+      <h3>From my testing, I realized I had several areas to improve:</h3>
+      <ul class="bullets">
+        <li>The multi-colored tags were confusing</li> <br>
+        <li>The email feature needed better explanation</li> <br>
+        <li>The priority levels still needed to be clearer</li> <br>
+        <li>The remember button had mixed results, but no clear winner. There had to be a simple, less obtrusive way to get users to do the remember sequence</li>
+      </ul> <br>
+      <button type="button" name="button" class="blue-background">See user test results</button>
+      <button type="button" name="button" class="blue-background">See usability test results</button>
+    </div>
+
     <!--Refinements-->
-    <div class="">
-      <h3>REFINEMENTS</h3>
+    <div class="text">
+      <h3>REFINEMENTS</h3> <br>
       <h4>I refined the copy in the onboarding sequence and I made other visual tweaks to my mockups.</h4>
-      <img src="images/casestudy1/hifi1_v2.png" alt="" height="300px">
+      <br><img src="images/casestudy1/hifi1_v2.png" alt="" height="300px">
       <img src="images/casestudy1/hifi2_v2.png" alt="" height="300px">
       <img src="images/casestudy1/hifi3_v2.png" alt="" height="300px">
       <img src="images/casestudy1/hifi4_v2.png" alt="" height="300px">
-      <h4>My biggest challenge was to make the “remember” feature more usable while not relying on an annoying popup, or buttons that only appeared at the end of the article.</h4>
-      <p>After more brainstorming, I realized that I could add two buttons to the top menu. By making them clearly different from the navigation bar and pinning the menu to the top of the screen, users could tap “remember” or “archive” at the moment they were finished with the link, even if they hadn’t scrolled to the bottom.</p>
-      <img src="images/casestudy1/hifi5_v2.png" alt="" height="300px">
-      <img src="images/casestudy1/hifi6_v2.png" alt="" height="300px">
+      <br><br>
+      <h3>My biggest challenge was to make the “remember” feature more usable while not relying on an annoying popup, or buttons that only appeared at the end of the article.</h3>
+      <h5>After more brainstorming, I realized that I could add two buttons to the top menu. By making them clearly different from the navigation bar and pinning the menu to the top of the screen, users could tap “remember” or “archive” at the moment they
+        were finished with the link, even if they hadn’t scrolled to the bottom.</h5>
+      <br><img src="images/casestudy1/read_button.png" alt="" height="300px">
     </div>
     <!--more testing-->
-    <div class="">
+    <div class="text">
       <h3>MORE TESTING</h3>
-      <p>With two final user tests, I got the feedback for the final version of my prototype. I changed the label and priority colors and refined the copy in the onbaording and  saving sequences. <br> <br>Forget Me Not was now ready! </p>
+      <h5>With two final user tests, I got the feedback for the final version of my prototype. I changed the label and priority colors and refined the copy in the onbaording and saving sequences. <br> <br>Forget Me Not was now ready! </h5>
     </div>
   </section>
 
   <!--Deliver & Reflect-->
   <section id="deliver" class="blue-background">
-    <h2>Deliver & Reflect</h2>
-    <!--the final product-->
-    <h3>THE FINAL PRODUCT</h3>
-    <iframe src="https://invis.io/98GK5VITSFC" width="450" height="800"></iframe>
-    <figcaption>evolution ADD GIF OF EVOLUTION</figcaption>
-    <iframe src="https://invis.io/98GK5VITSFC" width="" height="660"></iframe>
-    <figcaption>ADD GIF OF prototype</figcaption>
-    <button type="button" name="button">See the prototype</button>
-    <!--Learnings-->
-    <h3>LEARNINGS</h3>
-    <h4>For the future:</h4>
-    <ul>
-      <li>I did not fully achieve my goal of making users automatically opt to do the retention sequence. They could do it easily, but only did it <strong>after</strong> I asked them how they’d remember what they just read.</li>
-      <li>I’d optimize the link view for photos and videos since this is big part of content saved on the web</li>
-      <li>I’d refine the onboarding and saving sequences</li>
-    </ul>
-    <h4>Lessons</h4>
-    <ul>
-      <li>You must create and test well-differentiated design solutions. In my usability testing I could have tried many other styles of “read” buttons and <strong>gotten more feedback to make my design more intuitive.</strong></li>
-      <li>Your testers must match your research results <strong>demographically and psychographically.</strong> In my first round of  testing, I had one tester who said they would never use the platform. When I asked why they explained that they just never forgot to read links. This didn’t match my survey results or personas, so from then on I made sure to use testers who were like my future link-savers.</li>
-    </ul>
-    <a href="casestudy2.html"><h3>See my next project</h3></a>
+    <div class="text">
+      <h2>Deliver & Reflect</h2><br>
+      <!--the final product-->
+      <h3>THE FINAL PRODUCT</h3>
+      <iframe src="https://invis.io/98GK5VITSFC" width="450" height="800"></iframe>
+      <figcaption>evolution ADD GIF OF EVOLUTION</figcaption>
+      <iframe src="https://invis.io/98GK5VITSFC" width="450" height="660"></iframe>
+      <figcaption>ADD GIF OF prototype</figcaption>
+      <button type="button" name="button">See the prototype</button><br><br><br>
+      <!--Learnings-->
+      <h3>REFLECTION</h3>
+      <h3><strong>For the future:</strong></h3>
+      <ul class="bullets">
+        <li>I did not fully achieve my goal of making users automatically opt to do the retention sequence. They could do it easily, but only did it <strong>after</strong> I asked them how they’d remember what they just read.</li>
+        <br>
+        <li>I’d optimize the link view for photos and videos since this is big part of content saved on the web</li>
+        <br>
+        <li>I’d refine the onboarding and saving sequences</li><br>
+      </ul>
+      <h3><strong>Lessons</strong></h3>
+      <ul class="bullets">
+        <li>You must create and test well-differentiated design solutions. In my usability testing I could have tried many other styles of “read” buttons and <strong>gotten more feedback to make my design more intuitive.</strong></li>
+        <br>
+        <li>Your testers must match your research results <strong>demographically and psychographically.</strong> In my first round of testing, I had one tester who said they would never use the platform. When I asked why they explained that they just never
+          forgot to read links. This didn’t match my survey results or personas, so from then on I made sure to use testers who were like my future link-savers.</li>
+      </ul><br>
+      <a href="casestudy2.html"><h3>See my next project</h3></a>
+    </div>
+
   </section>
 
 
