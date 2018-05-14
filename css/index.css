@@ -1,5 +1,5 @@
 header {
-  background-image: url("/images/headshot.jpg");
+  background-image: url("../images/headshot.jpg");
   background-size: 100%;
   color: #fafaf9;
   height: 600px;
