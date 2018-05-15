@@ -1,10 +1,5 @@
 header {
   background-image: url("../images/headshot.jpg");
-
-}
-
-header h1 {
-
 }
 
 /*work*/
@@ -21,7 +16,7 @@ header h1 {
 
 #project1 {
   background-image: url("../images/banner.png");
-  background-position:75% 20%;
+  background-position: 75% 20%;
 }
 
 #work h1 {
@@ -46,39 +41,4 @@ header h1 {
 
 #contact h1 {
   margin-bottom: 2rem;
-}
-
-/*form*/
-
-.justify {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 30%;
-  margin: 0 auto;
-}
-
-input, textarea {
-  border: .5px solid #514394;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px lightgrey;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1rem;
-  padding: .3rem;
-  margin-top: 11rem;
-  background-color: #fafaf9;
-}
-
-input.justify {
-  margin-bottom: .7rem;
-}
-
-textarea.justify {
-  margin-bottom: .7rem;
-}
-
-
-img.icon {
-  padding: .5%;
-  margin: 2rem 0 2rem 0;
 }

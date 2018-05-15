@@ -23,7 +23,9 @@ nav li {
   padding: 1rem;
   margin: 0 auto;
 }
+
 /*header*/
+
 header {
   background-position: center;
   background-size: 100%;
@@ -35,6 +37,7 @@ header {
 header h1 {
   padding-top: 45%;
 }
+
 /*footer*/
 
 footer {
@@ -117,8 +120,16 @@ a:hover {
   color: #514394;
 }
 
-a:clicked {
-  color: #f0534f;
+figure {
+  font-size: 3rem;
+  margin-top: 1rem;
+  line-height: 2.8rem;
+}
+
+figcaption {
+  margin-bottom: 2rem;
+  font-size: .9rem;
+  font-style: italic;
 }
 
 /*BULLETED LIST*/
@@ -207,18 +218,77 @@ button {
   padding-left: 5%;
 }
 
+/*form*/
+
+.justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+input, textarea {
+  border: .5px solid #514394;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgrey;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1rem;
+  padding: .3rem;
+  margin-top: 11rem;
+  background-color: #fafaf9;
+}
+
+input.justify {
+  margin-bottom: .7rem;
+}
+
+textarea.justify {
+  margin-bottom: .7rem;
+}
+
+img.icon {
+  padding: .5%;
+  margin: 2rem 0 2rem 0;
+}
+
 /*Mobile*/
 
-@media only screen and (max-width: 600px) {
+.show {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
   body {
-    font-size: 15px;
+    font-size: 17px;
   }
   .grid-container-2, .grid-container-3, .grid-container-4 {
     display: block;
   }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  header {
+    height: 600px;
+  }
+  header.grid-container-2 {
+    background-position: top;
+    color: #514394;
+  }
 
+  .justify {
+    width: 80%;
+  }
+
+  header h1 {
+    padding-top: 75%;
+  }
+
+  #summary {
+    margin-top: 20%;
+
+  }
 }
-
-/*Tablet*/
-
-@media only screen and (min-width: 600px) {}
