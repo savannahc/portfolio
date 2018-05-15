@@ -3,6 +3,7 @@
 header {
   background-image: url("../images/banner.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   color: #fafaf9;
   height: 600px;
   position: relative;
