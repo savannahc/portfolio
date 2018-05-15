@@ -1,17 +1,10 @@
 header {
   background-image: url("../images/headshot.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: #fafaf9;
-  height: 600px;
-  position: relative;
+
 }
 
-.hero h1 {
-  width: 30%;
-  position: absolute;
-  bottom: 20%;
-  margin-left: 2rem;
+header h1 {
+
 }
 
 /*work*/
@@ -20,17 +13,23 @@ header {
   margin: 5rem 0 2rem 0;
 }
 
+.grid-item {
+  height: 200px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+#project1 {
+  background-image: url("../images/banner.png");
+  background-position:75% 20%;
+}
+
 #work h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
 
-#work .half-box {
-  height: 7rem;
-  text-align: center;
-}
 /*About Section*/
-
 #about {
   margin: 5rem 0 2rem 0;
   text-align: center;
@@ -67,6 +66,7 @@ input, textarea {
   font-size: 1rem;
   padding: .3rem;
   margin-top: 11rem;
+  background-color: #fafaf9;
 }
 
 input.justify {
@@ -77,10 +77,6 @@ textarea.justify {
   margin-bottom: .7rem;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-}
 
 img.icon {
   padding: .5%;
