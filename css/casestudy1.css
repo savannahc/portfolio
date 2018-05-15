@@ -24,10 +24,6 @@ header a {
 }
 
 /*Summary Section*/
-.summary {
-  margin-left: 2rem;
-  margin-top: 1rem;
-}
 
 .casestudy-process {
   line-height: 1.8rem;
@@ -71,72 +67,9 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-.no-bullets {
-  line-height: 2rem;
-  text-indent: 1rem;
-  font-style: italic;
-  text-align: center;
-}
-
-/*Personas*/
-
-.persona img {
-  margin: 0 auto;
-}
-
-.small-box {
-  background-color: #EEEEEE;
-  color: #0e0a0a;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px lightgrey;
-  padding: 2rem;
-  margin-top: 1rem;
-}
-
-/*competitive analysis*/
-
-.text img {
-  margin: 0 auto;
-}
-
-.bullets {
-  text-align: left;
-  margin-left: 1.2rem;
-  list-style-type: circle;
-  line-height: 1.7rem;
-}
-
 /*Define Section*/
-#define {
-  padding: 2rem;
-}
-
-#define .half-box {
-  width: 30%;
-  margin-left: 10%;
-  text-align: center;
-}
-
 #define img {
-  margin-left: 15%;
-}
-
-/*Design*/
-#sketches {
-  position: relative;
-}
-
-#sketches h5 {
-  position: absolute;
-  bottom: 175px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-/*test & refine*/
-
-#test {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 /*deliver*/
