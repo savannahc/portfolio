@@ -63,8 +63,6 @@ footer {
   color: #0e0a0a;
 }
 
-/*icons + email*/
-
 /*typography*/
 
 h1 {
@@ -173,6 +171,14 @@ button {
   margin-right: 1rem;
 }
 
+/*gif*/
+
+.gif {
+  border-radius: 6px;
+
+}
+
+
 /*grid*/
 
 .grid-container-2 {
@@ -210,6 +216,10 @@ button {
   grid-column-end: 4;
 }
 
+.padding-sm {
+  padding: 4% 7% 7% 7%;
+}
+
 .padding-3 {
   padding: 7%;
 }
@@ -218,13 +228,17 @@ button {
   padding-left: 5%;
 }
 
+.gutter {
+  padding-left: 1rem;
+}
+
 /*form*/
 
 .justify {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -258,7 +272,7 @@ img.icon {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   body {
     font-size: 17px;
   }
@@ -268,27 +282,98 @@ img.icon {
   .hide {
     display: none;
   }
-  .show {
-    display: block;
-  }
+
   header {
-    height: 600px;
+    height: 495px;
+    margin-bottom: 0px;
   }
   header.grid-container-2 {
     background-position: top;
     color: #514394;
   }
-
   .justify {
     width: 80%;
   }
-
   header h1 {
     padding-top: 75%;
   }
-
-  #summary {
-    margin-top: 20%;
-
+  #work h1 {
+    margin-top: 2rem;
   }
+  #summary {
+    margin-top: 15%;
+  }
+  /*image sizes*/
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 601px) {
+
+.grid-container-2, .grid-container-3 {
+  display: block;
+}
+  header {
+    height: 375px;
+    margin-bottom: 0rem;
+  }
+  header.grid-container-2 {
+    background-position: top;
+  }
+  header h1 {
+    padding-top: 25%;
+  }
+  #work h1 {
+    margin-top: 2rem;
+  }
+  .justify {
+    width: 60%;
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+
+}
+/*desktop*/
+@media only screen and (min-width: 800px) {
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  header {
+    height: 600px;
+    margin-bottom: 3rem;
+  }
+  header.grid-container-2 {
+    background-position: top;
+  }
+  header h1 {
+    padding-top: 50%;
+  }
+  .justify {
+    width: 40%;
+  }
+
+  .hide {
+    display: inherit;
+  }
+  .show {
+    display: none;
+  }
+
 }
