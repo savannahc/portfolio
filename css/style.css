@@ -321,6 +321,7 @@ img.icon {
 
   header {
     height: 495px;
+    background-size: 100%;
     margin-bottom: 0px;
   }
   header.grid-container-2 {
