@@ -24,6 +24,10 @@ nav li {
   margin: 0 auto;
 }
 
+nav img {
+  height: 50px;
+}
+
 /*header*/
 
 header {
@@ -130,6 +134,10 @@ figcaption {
   font-style: italic;
 }
 
+.blue-text {
+  color: #514394;
+}
+
 /*BULLETED LIST*/
 
 .bullets {
@@ -171,11 +179,43 @@ button {
   margin-right: 1rem;
 }
 
+/*img sizes*/
+
+.fifty {
+  width: 50%;
+}
+
+.sixty {
+  width: 60%;
+}
+.seventy {
+  width: 70%;
+}
+
+.ninety {
+  width: 90%;
+}
+
+.problem-solution img {
+  height: 300px;
+}
+
+.persona {
+  height: 150px;
+}
+
+.logos {
+  height: 100px;
+}
+
+.emailflow {
+  width: 250px;
+}
+
 /*gif*/
 
 .gif {
   border-radius: 6px;
-
 }
 
 
@@ -262,15 +302,11 @@ textarea.justify {
 }
 
 img.icon {
-  padding: .5%;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem .5rem 2rem .5rem;
 }
 
 /*Mobile*/
 
-.show {
-  display: none;
-}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -360,7 +396,7 @@ img.icon {
     margin-bottom: 3rem;
   }
   header.grid-container-2 {
-    background-position: top;
+    background-position: center;
   }
   header h1 {
     padding-top: 50%;
