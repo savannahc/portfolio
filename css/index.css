@@ -12,7 +12,12 @@ header {
 
 #project1 {
   background-image: url("../images/banner.png");
-  background-position: 75% 20%;
+  background-position: center;
+}
+
+#blank {
+  background-image: url("../images/blank_casestudy.png");
+  background-position: center;
 }
 
 #work h1 {
