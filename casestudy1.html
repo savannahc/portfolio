@@ -28,13 +28,17 @@
 
 <body class=".tk-brandon-grotesque">
   <!--Nav Bar-->
-  <nav class="black-background">
-    <a href="index.html"><img src="images/logo.png"></a>
-    <ul>
-      <li><a href="index.html#work">WORK</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="index.html#contact">CONTACT</a></li>
-    </ul>
+  <nav class="black-background grid-container-3">
+    <div class="griditem-1">
+      <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <div class="griditem-2">
+      <ul id="nav">
+        <li class="active"><a href="index.html#work">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
+    </div>
   </nav>
   <!--Hero-->
   <header class="grid-container-2">
@@ -79,7 +83,7 @@
       <h3>PROBLEM</h3>
       <p>There are many tools for link saving, but no single leading platform. Why?
 
-        <strong>Core issue: All are link “graveyards”,</strong> like my pocket dashboard below . I don’t know what to read first.</p>
+        <strong>Core issue: All are link “graveyards”,</strong> like the pocket dashboard below . There is no indication of priority, so it's not clear what to read first.</p>
       <img src="images/casestudy1/pocket.png"><br>
     </div>
     <!--Solution-->
@@ -102,7 +106,7 @@
       <h3>SURVEY</h3>
     </div>
     <div class="">
-      <h5>I began with a survey to answer some questions I had:</h5>
+      <h5>I began with a survey to answer some key questions</h5>
       <ul><br><em>
         <li>How are people saving links?</li>
         <li>What works?</li>
@@ -113,7 +117,7 @@
     </div>
     <div class="grid-container-3">
       <div class="grid-item1">
-        <h5>I got:</h5>
+        <h5>The survey got:</h5>
         <figure>
           55
         </figure>
@@ -146,22 +150,33 @@
       <div>
         <br><br><br><br>
         <h3>PERSONAS</h3>
-        <h5>I made two personas to reflect my survey results: </h5><br><br>
+        <h5>The survey results show two primary types of users. These became personas: </h5><br><br>
       </div>
       <div class="grid-item1">
         <img src="images/casestudy1/regina.png" class="persona">
         <div class="small-box">
           <h4><strong>Regina</strong></h4>
-          <h5>24<br> B.S. in Communications, young marketer living in NYC <br><br> Regina is a self-improver who uses the web to find answers. She works hard at her job and she’s always saving links that help her work better, get healthier, and stay informed. She uses Facebook Save, plus she emails herself tons of links everyday. Sometimes she uses a few email folders to keep track of all her links. She’s tried Flipboard and Pinterest, but neither of them really stuck.
-          </h5>
+          <h5>24<br> B.S. in Communications, young marketer living in NYC <br><br></h5>
+          <ul class="bullets">
+            <li>Regina is a self-improver who uses the web to find answers.</li>
+            <li>She’s always saving links that help her work better, get healthier, and stay informed.</li>
+            <li>She uses Facebook Save, plus she emails herself tons of links everyday.</li>
+            <li>She’s tried Flipboard and Pinterest, but neither of them really stuck.</li>
+          </ul>
+
         </div>
       </div>
       <div class="grid-item2" id="summary">
         <img src="images/casestudy1/bobby.png" class="persona">
         <div class="small-box">
           <h4><strong>Bobby</strong></h4>
-          <h5>20<br>College Sophomore in Philadelphia<br><br> Bobby spends at least a couple hours on different social media sites every day. He saves lots of articles to read later because he never quite seems to have
-            the time to finish them. He also uses the web to find articles for class projects and research papers. Bobby uses pocket, email, and saves a lot of things on Facebook as well but doesn’t really have a system. </h5>
+          <h5>20<br>College Sophomore in Philadelphia<br><br> </h5>
+          <ul class="bullets">
+            <li>Bobby spends a couple hours on different social media sites every day.</li>
+            <li>He saves lots of articles to read later, but he never has the time to finish them.</li>
+            <li>He also uses the web to find articles for class projects and research papers.</li>
+            <li>Bobby uses Pocket, email, and Facebook Save, but he doesn’t really have a system.</li>
+          </ul>
         </div>
       </div>
 
@@ -170,13 +185,15 @@
       <br><br><button type="button" name="button">Read more about Bobby & Regina</button>
     </div>
     <!--Competitive Analysis-->
-    <div class="">
+    <div class="grid-container-2">
       <div class="grid-item1"> <br><br><br>
         <h3>COMPETITIVE ANALYSIS</h3>
+        <h5>The survey showed that the leading link saving methods were email, Safari Reading list, and Google bookmarks. A SWOT analysis revealed some interesting opportunities:</h5> <br><br>
         <img src="images/casestudy1/logos.png" class="hide">
         <img src="images/casestudy1/stacked_logos.png" class="show logos">
         <br><br>
       </div>
+        </div>
       <div class="grid-container-3">
         <div class="grid-item1 gutter">
           <h3>Strengths & Weaknesses:</h3>
@@ -197,9 +214,8 @@
           </ul><br><br>
         </div>
       </div>
-
       <button type="button" name="button">Read the full competitive analysis</button>
-    </div>
+
   </section>
 
   <!--Define Section-->
@@ -209,7 +225,7 @@
     <div>
       <h2>Define</h2><br>
       <h3>USER STORIES</h3>
-      <h5>I focused on creating four core user stories from my research and personas:</h5>
+      <h5>The survey and personas revealed that there were four core functions the platform needed to provide, these became user stories:</h5>
     </div>
     <div class="grid-container-2">
       <div class="grid-item1 padding-3">
@@ -221,7 +237,7 @@
     </div>
     <div class="grid-container-2">
       <div class="grid-item1">
-        <h5>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved.</h5>
+        <h5>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved. The top techniques included visualizing what you read, articulating how the information relates to what you already know, and identifying the 3 main points. I created a retention question sequence around these techniques.</h5>
         <br><br><button type="button" name="button" class="blue-background">Read the user stories</button><br><br><br><br>
       </div>
     </div>
@@ -229,7 +245,8 @@
     <div class="grid-container-2">
       <div class="grid-item1">
         <h3>USER FLOWS</h3>
-        <h4>From my survey I wanted to avoid the mistakes of other link saving tools. I didn’t want to make users to learn new platform, instead I wanted to <strong>fit into what they were already doing</strong> (aka let them KEEP emailing links to themselves!) <br><br>My goal was to <strong>use the science of reading retention</strong> while keeping my platform simple and intuitive.<br><br>User flow for saving links through email: </h4>
+        <h4>From my survey I wanted to avoid the mistakes of other link saving tools. These asked users to download yet another app and learn new ways of storing and organizing links. They didn't seem to ask why someone would want save a link, or ask how the act of saving could provide genuine value to the user. The survey made it clear that all these link saving and organization tools were missing out on helping people actually read what they saved. What if people could learn from all the links they saved? What if they had a tool that worked within the way they were already saving links?
+      <br><br>The user flows reflected how people were already saving links, while <strong>using the science of reading retention</strong>.<br><br>User flow for saving links through email: </h4>
       </div>
     </div>
     <br><img src="images/casestudy1/emailflow.png" class="hide persona">
@@ -249,7 +266,7 @@
     <!--Sketches & Wireframes-->
     <div class="grid-container-2">
       <div class="grid-item1">
-        <h5>I began to sketch and test my initial ideas for an interface.</h5><br>
+        <h5>The interface design began with some sketches.</h5><br>
       </div>
       <div class="grid-item2">
         <img src="images/casestudy1/sketches.png" class="ninety"><br><br><br>
@@ -260,15 +277,15 @@
         <img src="images/casestudy1/wireframes_v1.png" class="ninety"><br><br>
       </div>
       <div class="grid-item2">
-        <h5>After sketching, I created some initial wireframes, made an interactive prototype from them, and did 3 user tests to see if my interface was usable.</h5>
+        <h5>These sketches became the first round of wireframes. Those became an interactive prototype, and were tested with 3 separate users.</h5>
       </div>
     </div>
     <div class="grid-container-2">
       <div class="grid-item1">
         <br>
-        <h3>After seeking some feedback, I realized that I needed to get clear on what Forget Me Not would be: an app or website?</h3>
-        <h5> I realized that a responsive website would be the fastest way to see if there was a demand for a tool like Forget Me Not. I revised my wireframes to make this clear.<br> <br> I also learned that categories were more important to users than I realized,
-          so I needed to add them and clarify the priority levels.</h5><br><br>
+        <h3>Testers were confused about whether Forget Me Not was an app or website?</h3>
+        <h5> I decided that it would be a responsive website. Building a website would be the fastest way to see if there was a demand for a tool like Forget Me Not, and it would work on all devices. The wireframes were changed to make this clear.<br> <br> The testers also explained that they really needed categories for their links
+          and that they priority levels were unclear.</h5><br><br>
       </div>
 
     </div>
@@ -281,7 +298,7 @@
     <div class="grid-container-2">
       <div class="griditem-1">
         <h3>BRANDING</h3>
-        <h5>Several ideas came up over and over as I developed Forget Me Not:</h5>
+        <h5>Several ideas came up over and over as Forget Me Not developed:</h5>
         <ul>
           <br>
           <li><strong>Clarity </strong>· Forget Me Not is about bringing clarity to link saving and to what you remember from the links you save.</li>
@@ -322,7 +339,7 @@
     <h3>HI-FI MOCKUPS</h3>
     <div class="grid-container-2">
       <div class="grid-item1">
-        <h5>I revised my low-fi mockups to streamline the onboarding and saving and made my first hi-fi mockups.</h5> <br><br>
+        <h5>After the branding, the first round of hi-fi mockups was finished too.</h5> <br><br>
       </div>
     </div>
     <div class="grid-container-3">
@@ -357,7 +374,7 @@
       <div class="griditem1">
         <h2>Test & Refine</h2><br>
         <h3>USABILITY TESTING</h3>
-        <h5>I did usability testing and more user testing to refine some of my key design decisions.</h5> <br><br>
+        <h5>Usability testing helped to refine some key design decisions, along with a few more user tests.</h5> <br><br>
       </div>
     </div>
     <div class="grid-container-3">
@@ -378,7 +395,7 @@
     <div class="grid-container-2">
       <div class="grid-item1">
         <br>
-        <h3>From my testing, I realized I had several areas to improve:</h3>
+        <h3>From my testing, showed several areas needed to improve:</h3>
         <ul class="bullets">
           <li>The multi-colored tags were confusing</li>
           <li>The email feature needed better explanation</li>
@@ -395,7 +412,7 @@
       <div class="grid-item1">
         <br><br><br>
         <h3>REFINEMENTS</h3>
-        <h4>I refined the copy in the onboarding sequence and I made other visual tweaks to my mockups.</h4>
+        <h4>The copy in the onboarding sequence was refined along with some other visual tweaks.</h4>
         <br><br>
       </div>
     </div>
@@ -416,9 +433,9 @@
     <div class="grid-container-2">
       <div class="grid-item1">
         <br><br>
-        <h3>My biggest challenge was to make the “remember” feature more usable while not relying on an annoying popup, or buttons that only appeared at the end of the article.</h3>
+        <h3>The biggest challenge was to make the “remember” feature more usable while not relying on an annoying popup, or buttons that only appeared at the end of the article.</h3>
         <h5>After more brainstorming, I realized that I could add two buttons to the top menu. By making them clearly different from the navigation bar and pinning the menu to the top of the screen, users could tap “remember” or “archive” at the moment they
-            were finished with the link, even if they hadn’t scrolled to the bottom.</h5>
+            were finished with the link, even if they hadn’t scrolled to the bottom. This maximized the chance they would do the retention questions.</h5>
       </div>
     </div>
 
@@ -438,7 +455,7 @@
     <div class="grid-container-2">
       <div class="grid-item1">
         <figcaption>Forget Me Not's Evolution</figcaption>
-        <h5>With two final user tests, I got the feedback for the final version of my prototype. I changed the label and priority colors and refined the copy in the onboarding and saving sequences. <br> <br>Forget Me Not was now ready! </h5>
+        <h5>Two final user tests provided the feedback for the final version of the prototype. The label and priority colors were changed and the copy in the onboarding and saving sequences was refined. <br> <br>Forget Me Not was now ready! </h5>
       </div>
     </div>
   </section>
