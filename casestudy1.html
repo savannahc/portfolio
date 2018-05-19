@@ -30,9 +30,10 @@
   <!--Nav Bar-->
   <nav class="black-background grid-container-3">
     <div class="griditem-1">
-      <a href="index.html"><img src="images/logo.png"></a>
+      <a href="index.html"><img src="images/logo.png" class="hide"></a>
+      <a href="index.html"><img src="images/mobile_logo.png" class="show"></a>
     </div>
-    <div class="griditem-2">
+    <div class="griditem-4">
       <ul id="nav">
         <li class="active"><a href="index.html#work">WORK</a></li>
         <li><a href="about.html">ABOUT</a></li>
@@ -77,23 +78,23 @@
     </div>
   </section>
   <!--Problem & Solution Section-->
-  <section class="problem-solution grid-container-2">
+  <section class="grid-container-2 black-background">
     <!--Problem-->
-    <div class="grid-item1 black-background padding-3">
+    <div class="grid-item1  padding-3">
       <h3>PROBLEM</h3>
       <p>There are many tools for link saving, but no single leading platform. Why?
 
         <strong>Core issue: All are link “graveyards”,</strong> like the pocket dashboard below . There is no indication of priority, so it's not clear what to read first.</p>
-      <img src="images/casestudy1/pocket.png"><br>
+      <img src="images/casestudy1/pocket.png" class="ninety"><br>
     </div>
     <!--Solution-->
     <!--for desktop size, width 50% display, inline block-->
-    <div class="grid-item2 blue-background padding-3">
+    <div class="grid-item2 padding-3">
       <h3>SOLUTION</h3>
       <p>Forget Me Not makes it easy for users to save and remember what’s in their links.
 
         <strong>Forget Me Not is a tool optimized for reading and remembering links, not just saving them</strong></p>
-      <img src="images/casestudy1/mobiledashboard.png"><br>
+      <img src="images/casestudy1/mobiledashboard.png" class="ninety"><br>
     </div>
 
   </section>
@@ -105,16 +106,9 @@
       <h2>Discover</h2>
       <h3>SURVEY</h3>
     </div>
-    <div class="">
-      <h5>I began with a survey to answer some key questions</h5>
-      <ul><br><em>
-        <li>How are people saving links?</li>
-        <li>What works?</li>
-        <li>What doesn’t?</li>
-        <li>What do they want to change about it?</li><br><br>
-        </em>
-      </ul>
-    </div>
+    <h5>I began with a survey to answer some key questions:</h5><br>
+    <h4><em>How are people saving links?<br><br>What works?<br><br>What doesn’t?<br><br>What do they want to change about it?<br><br></em></h4>
+
     <div class="grid-container-3">
       <div class="grid-item1">
         <h5>The survey got:</h5>
@@ -138,12 +132,16 @@
         </figure>
         <figcaption>of the Article Savers who used a specialized link saving tool like pocket also emailed links to themselves </figcaption>
       </div>
+    </div>
+    <div class="grid-container-2">
       <div class="grid-item1">
-        <h3>Email isn’t designed for link saving or reading, why was it so popular? <br><br>What were all these tools missing?</h3><br>
+        <h4>Email isn’t designed for link saving or reading, why was it so popular? <br><br>What were all these tools missing?</h4><br><br>
       </div>
     </div>
 
-    <button type="button" name="button">Read the full survey, results, and analysis</button> <br>
+
+
+    <button type="button" name="button" class="blue-background">Read the full survey, results, and analysis</button> <br>
     <!--Personas-->
 
     <div class="grid-container-2">
@@ -182,7 +180,7 @@
 
     </div>
     <div class="grid-item3 ">
-      <br><br><button type="button" name="button">Read more about Bobby & Regina</button>
+      <br><br><button type="button" name="button" class="blue-background">Read more about Bobby & Regina</button>
     </div>
     <!--Competitive Analysis-->
     <div class="grid-container-2">
@@ -191,30 +189,30 @@
         <h5>The survey showed that the leading link saving methods were email, Safari Reading list, and Google bookmarks. A SWOT analysis revealed some interesting opportunities:</h5> <br><br>
         <img src="images/casestudy1/logos.png" class="hide">
         <img src="images/casestudy1/stacked_logos.png" class="show logos">
-        <br><br>
+        <br><br><br>
       </div>
-        </div>
-      <div class="grid-container-3">
-        <div class="grid-item1 gutter">
-          <h3>Strengths & Weaknesses:</h3>
-          <ul class="bullets">
-            <li>Simple, easy ways to save links</li>
-            <li>Organize links through folders</li>
-            <li>No reminders to view unread links</li>
-            <li>Nothing to help you remember your link</li>
-          </ul><br><br>
-        </div>
-        <div class="grid-item2 gutter">
-          <h3>Opportunities</h3>
-          <ul class="bullets">
-            <li>Have a simple interface with just a few key features</li>
-            <li>Work across devices</li>
-            <li>Fit into users’ existing habits</li>
-            <li>Help them remember what and why they were saving </li>
-          </ul><br><br>
-        </div>
+    </div>
+    <div class="grid-container-3">
+      <div class="grid-item1 gutter">
+        <h3>Strengths & Weaknesses:</h3>
+        <ul class="bullets">
+          <li>Simple, easy ways to save links</li>
+          <li>Organize links through folders</li>
+          <li>No reminders to view unread links</li>
+          <li>Nothing to help you remember your link</li>
+        </ul><br><br>
       </div>
-      <button type="button" name="button">Read the full competitive analysis</button>
+      <div class="grid-item2 gutter">
+        <h3>Opportunities</h3>
+        <ul class="bullets">
+          <li>Have a simple interface with just a few key features</li>
+          <li>Work across devices</li>
+          <li>Fit into users’ existing habits</li>
+          <li>Help them remember what and why they were saving </li>
+        </ul><br><br>
+      </div>
+    </div>
+    <button type="button" name="button" class="blue-background">Read the full competitive analysis</button>
 
   </section>
 
@@ -229,15 +227,15 @@
     </div>
     <div class="grid-container-2">
       <div class="grid-item1 padding-3">
-        <h2>“As a new or returning user, I want to <strong>save a link</strong> so that I can gather helpful and interesting content from around the web” <br> <br>“As a new or returning user, I want to <strong>remember to read a link</strong> so that all my collecting isn't a waste”</h2>
+        <h3><em>“As a new or returning user, I want to <strong>save a link</strong> so that I can gather helpful and interesting content from around the web” <br> <br>“As a new or returning user, I want to <strong>remember to read a link</strong> so that all my collecting isn't a waste”</em></h3>
       </div>
       <div class="grid-item2 padding-3">
-        <h2>“As a new or returning user, I want to <strong>get rid of old links</strong> so that I don’t have an overwhelming dashboard” <br> <br>“As a new or returning user, I want to <strong>remember what's in a link</strong> so that I get something out of what I save”</h2>
+        <h3><em>“As a new or returning user, I want to <strong>get rid of old links</strong> so that I don’t have an overwhelming dashboard” <br> <br>“As a new or returning user, I want to <strong>remember what's in a link</strong> so that I get something out of what I save”</em></h4>
       </div>
     </div>
     <div class="grid-container-2">
       <div class="grid-item1">
-        <h5>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved. The top techniques included visualizing what you read, articulating how the information relates to what you already know, and identifying the 3 main points. I created a retention question sequence around these techniques.</h5>
+        <h5>Before adding the more specific user stories, I researched reading retention techniques so that I could identify clear steps users could take to remember what they saved. The top techniques included visualizing what you read, articulating how the information relates to what you already know, and identifying the 3 main points. I created a retention question sequence around these techniques.</h3>
         <br><br><button type="button" name="button" class="blue-background">Read the user stories</button><br><br><br><br>
       </div>
     </div>
@@ -259,32 +257,26 @@
   <!--Design Section-->
   <section id="design" class="padding-3">
     <div class="grid-container-2">
-      <h2>Design</h2><br><br>
+      <h2>Design</h2><br><br><br><br>
       <h3>SKETCHES & WIREFRAMES</h3>
     </div>
 
     <!--Sketches & Wireframes-->
     <div class="grid-container-2">
       <div class="grid-item1">
-        <h5>The interface design began with some sketches.</h5><br>
-      </div>
-      <div class="grid-item2">
+        <h5>The interface design began with some sketches. </h5><br><br><br>
         <img src="images/casestudy1/sketches.png" class="ninety"><br><br><br>
       </div>
-    </div>
-    <div class="grid-container-2">
-      <div class="grid-item1">
-        <img src="images/casestudy1/wireframes_v1.png" class="ninety"><br><br>
-      </div>
       <div class="grid-item2">
-        <h5>These sketches became the first round of wireframes. Those became an interactive prototype, and were tested with 3 separate users.</h5>
+        <h5>These sketches became the first round of wireframes. Those became an interactive prototype, and were tested with 3 separate users.</h5><br><br>
+        <img src="images/casestudy1/wireframes_v1.png" class="ninety">
       </div>
     </div>
     <div class="grid-container-2">
       <div class="grid-item1">
         <br>
-        <h3>Testers were confused about whether Forget Me Not was an app or website?</h3>
-        <h5> I decided that it would be a responsive website. Building a website would be the fastest way to see if there was a demand for a tool like Forget Me Not, and it would work on all devices. The wireframes were changed to make this clear.<br> <br> The testers also explained that they really needed categories for their links
+        <h3>Testers were confused about whether Forget Me Not was an app or website. </h3>
+        <h5>In thinking about how a company might create an MVP, it was clear a responsive website would be the best starting point. Building a website would be the fastest way to see if there was a demand for a tool like Forget Me Not, and it would work on all devices. The wireframes were changed to make this clear.<br> <br> The testers also explained that they really needed categories for their links
           and that they priority levels were unclear.</h5><br><br>
       </div>
 
@@ -296,7 +288,7 @@
 
     <!--Branding-->
     <div class="grid-container-2">
-      <div class="griditem-1">
+      <div class="griditem-1"><br><br><br>
         <h3>BRANDING</h3>
         <h5>Several ideas came up over and over as Forget Me Not developed:</h5>
         <ul>
@@ -332,10 +324,12 @@
         <br><br><img src="images/casestudy1/colors.png" class="ninety">
       </div>
     </div>
+    <br><br>
+    <button type="button" name="button" class="blue-background">Read the brand guide</button>
 
     <!--Hi Fi Mockups-->
 
-    <br><br><br>
+    <br><br><br><br>
     <h3>HI-FI MOCKUPS</h3>
     <div class="grid-container-2">
       <div class="grid-item1">
@@ -344,24 +338,24 @@
     </div>
     <div class="grid-container-3">
       <div class="grid-item1">
-        <img src="images/casestudy1/hifi1_v1.png">
+        <img src="images/casestudy1/hifi1_v1.png" class="ninety">
       </div>
       <div class="grid-item2 hide">
-        <img src="images/casestudy1/hifi2_v1.png">
+        <img src="images/casestudy1/hifi2_v1.png" class="ninety">
       </div>
       <div class="grid-item3">
-        <img src="images/casestudy1/hifi3_v1.png">
+        <img src="images/casestudy1/hifi3_v1.png" class="ninety">
       </div>
     </div>
     <div class="grid-container-3">
       <div class="grid-item1">
-        <img src="images/casestudy1/hifi4_v1.png">
+        <img src="images/casestudy1/hifi4_v1.png" class="ninety">
       </div>
       <div class="grid-item2 hide">
-        <img src="images/casestudy1/hifi5_v1.png">
+        <img src="images/casestudy1/hifi5_v1.png" class="ninety">
       </div>
       <div class="grid-item3 hide">
-        <img src="images/casestudy1/hifi6_v1.png">
+        <img src="images/casestudy1/hifi6_v1.png" class="ninety">
       </div>
     </div>
 
@@ -380,15 +374,15 @@
     <div class="grid-container-3">
       <div class="grid-item1">
         <h4>Which selected page view?</h4> <br>
-        <img src="images/casestudy1/pageview.png" class="sixty">
+        <img src="images/casestudy1/pageview.png" class="ninety">
       </div>
       <div class="grid-item2">
         <h4>Which “read” button?</h4> <br>
-        <img src="images/casestudy1/readbutton.png" class="sixty">
+        <img src="images/casestudy1/readbutton.png" class="ninety">
       </div>
       <div class="grid-item3">
         <h4>Which retention prompt?</h4> <br>
-        <img src="images/casestudy1/readprompt.png" class="seventy">
+        <img src="images/casestudy1/readprompt.png" class="ninety">
       </div>
     </div>
 
@@ -403,14 +397,14 @@
           <li>The remember button had mixed results, but no clear winner. There had to be a simple, less obtrusive way to get users to do the remember sequence</li>
         </ul> <br>
       </div>
-    </div>
-    <button type="button" name="button" class="blue-background">See user test results</button>
+    </div><br><br>
+    <a href=""><button type="button" name="button" class="blue-background">See user test results</button></a>
     <button type="button" name="button" class="blue-background">See usability test results</button>
 
     <!--Refinements-->
     <div class="grid-container-2">
       <div class="grid-item1">
-        <br><br><br>
+        <br><br><br><br>
         <h3>REFINEMENTS</h3>
         <h4>The copy in the onboarding sequence was refined along with some other visual tweaks.</h4>
         <br><br>
@@ -418,14 +412,14 @@
     </div>
     <div class="grid-container-3">
       <div class="grid-item1">
-        <img src="images/casestudy1/hifi1_v2.png" class="seventy">
+        <img src="images/casestudy1/hifi1_v2.png" class="ninety">
       </div>
       <div class="grid-item2">
-        <img src="images/casestudy1/hifi2_v2.png" class="seventy">
+        <img src="images/casestudy1/hifi2_v2.png" class="ninety">
       </div>
 
       <div class="grid-item3 hide">
-        <img src="images/casestudy1/hifi3_v2.png" class="seventy">
+        <img src="images/casestudy1/hifi3_v2.png" class="ninety">
       </div>
 
     </div>
@@ -439,23 +433,21 @@
       </div>
     </div>
 
-    <div class="grid-container-4">
+    <div class="grid-container-3">
       <div class="grid-item1">
-        <br><img src="images/casestudy1/read_button_before.png">
+        <br><img src="images/casestudy1/read_button_before.png" class="ninety">
       </div>
       <div class="grid-item2">
-        <br><img src="images/casestudy1/read_button_after.png">
+        <br><img src="images/casestudy1/read_button_after.png" class="ninety">
       </div>
     </div>
     <!--more testing-->
     <br><br><br>
     <h3>MORE TESTING</h3>
-    <h5>Forget Me Not had come a long way, and it was almost done.</h5> <br>
-    <img class="gif" src="images/casestudy1/evolution.gif">
     <div class="grid-container-2">
       <div class="grid-item1">
-        <figcaption>Forget Me Not's Evolution</figcaption>
-        <h5>Two final user tests provided the feedback for the final version of the prototype. The label and priority colors were changed and the copy in the onboarding and saving sequences was refined. <br> <br>Forget Me Not was now ready! </h5>
+        <h5>
+        Two final user tests provided the feedback for the final version of the prototype. The label and priority colors were changed and the copy in the onboarding and saving sequences was refined. <br> <br>Forget Me Not was now ready! </h5>
       </div>
     </div>
   </section>
@@ -467,9 +459,17 @@
       <h3>THE FINAL PRODUCT</h3><br>
       <div class="grid-container-2">
         <div class="griditem-1">
-          <a href="https://invis.io/98GK5VITSFC"><img class="gif" src="images/casestudy1/sign_up.gif"></a> <br><br>
-          <button type="button" name="button" onclick="href='https://invis.io/98GK5VITSFC'">See the prototype</button><br><br><br>
+          <h4>Forget Me Not's Evolution</h4><br>
+          <a href="https://invis.io/98GK5VITSFC"><img class="gif seventy" src="images/casestudy1/evolution.gif"></a> <br><br>
+
+          <button class="white-background"type="button" name="button" onclick="href='https://invis.io/98GK5VITSFC'">See the prototype</button><br><br><br>
         </div>
+        <div class="griditem-2">
+          <h4>The Final Prototype</h4><br>
+          <a href="https://invis.io/98GK5VITSFC"><img class="gif seventy" src="images/casestudy1/sign_up.gif"></a> <br><br>
+
+        </div>
+
       </div>
 
       <!--Learning-->

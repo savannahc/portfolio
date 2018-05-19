@@ -12,13 +12,6 @@ header {
 }
 /*Problem Solution Section*/
 
-.problem-solution {
-  text-align: center;
-}
-
-.problem-solution h3, p {
-  margin: 1rem;
-}
 
 .problem-solution img {
   margin: 0 auto;
