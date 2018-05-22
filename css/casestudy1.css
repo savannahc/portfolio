@@ -1,8 +1,4 @@
-/*Header*/
 
-header {
-  background-image: url("../images/banner.png");
-}
 
 /*Summary Section*/
 
@@ -29,6 +25,8 @@ header {
 }
 
 /*deliver*/
-#deliver a {
+a {
   text-decoration: underline;
+  text-decoration-color: #98b1fb;
+  font-weight: bold;
 }

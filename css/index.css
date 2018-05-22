@@ -1,12 +1,9 @@
-header {
-  background-image: url("../images/headshot.jpg");
-}
 
 /*work*/
 
 .grid-item {
   height: 200px;
-  text-align: center;
+  text-align: left;
   padding-top: 20%;
 }
 
@@ -15,14 +12,10 @@ header {
   background-position: center;
 }
 
-#blank {
-  background-image: url("../images/blank_casestudy.png");
-  background-position: center;
-}
 
-#work h1 {
-  margin-bottom: 2rem;
-  text-align: center;
+#work {
+  margin: 5rem 0 2rem 0;
+    text-align: center;
 }
 
 /*About Section*/
@@ -40,6 +33,6 @@ header {
   text-align: center;
 }
 
-#contact h1 {
+#contact h2 {
   margin-bottom: 2rem;
 }
