@@ -419,7 +419,7 @@ img.icon {
     margin-top: 2rem;
   }
   .justify {
-    width: 60%;
+    width: 80%;
   }
   nav.black-background.grid-container-3 {
     display: flex;
@@ -470,7 +470,7 @@ img.icon {
     grid-template-columns: 1fr 8fr 1fr;
   }
   .justify {
-    width: 40%;
+    width: 60%;
   }
   .padding-5 {
     padding: 5% 15% 0 15%;
