@@ -65,6 +65,11 @@ footer img {
   border-top: 2px solid #98b1fb;
   padding-top: 1rem;
 }
+
+.sm-divider {
+  border-top: 2px solid #E8E8E8;
+  padding-top: .6rem;
+}
 /*typography*/
 
 h1 {
@@ -80,6 +85,8 @@ h2 {
 h3 {
   font-size: 1.89rem;
   line-height: 2rem;
+  color: #98b1fb;
+  margin-top: 12%;
 }
 
 h4 {
@@ -93,7 +100,7 @@ h5 {
 }
 
 p {
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   text-indent: 0px;
 }
 
@@ -120,13 +127,11 @@ a:hover {
 
 figure {
   font-size: 3rem;
-  margin-top: 1rem;
-  line-height: 2.8rem;
+  line-height: 2.9rem;
   font-weight: bold;
 }
 
 figcaption {
-  margin-bottom: 2rem;
   font-style: italic;
 }
 
@@ -163,6 +168,7 @@ button {
   padding: .35rem 1rem .45rem 1rem;
   background-color: #98b1fb;
   color: #ffff;
+  margin: 2rem 0 0 0;
 }
 
 button:hover {
@@ -202,8 +208,8 @@ button:hover {
   width: 98%;
 }
 
-.problem-solution img {
-  height: 300px;
+.hundred {
+  width: 100%;
 }
 
 .persona {
@@ -213,18 +219,13 @@ button:hover {
 .logos {
   height: 100px;
 }
-.emailflow {
-  height:200px;
-}
+
 .emailflow-mobile {
-  width: 250px;
+  width: 60%;
 }
 
-/*gif*/
-
-.gif {
-  border-radius: 6px;
-  width: 333px;
+.shadow {
+  box-shadow: 3px 3px 3px lightgrey;
 }
 
 /*grid*/
@@ -288,9 +289,6 @@ button:hover {
   padding: 5%;
 }
 
-.padding-5 {
-  padding: 5% 20% 5% 20%;
-}
 
 .padding-left {
   padding-left: 5%;
@@ -300,10 +298,6 @@ button:hover {
   padding-right: 5%;
 }
 
-.header-img {
-  padding-left: 20%;
-  padding-right: 20%;
-}
 /*form*/
 
 .justify {
@@ -342,10 +336,10 @@ img.icon {
 @media only screen and (max-width: 600px) {
 
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 
-  .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5 {
+  .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5, .grid-container-6 {
     display: block;
   }
   .hide {
@@ -388,14 +382,14 @@ img.icon {
   }
 
   .padding-5 {
-    padding: 5% 0 5% 0;
+    padding: 5%;
   }
 }
 
 /*Tablet*/
 
 @media only screen and (min-width: 601px) {
-  .grid-container-2, .grid-container-3 {
+  .grid-container-2, .grid-container-3, {
     display: block;
   }
 
@@ -417,7 +411,7 @@ img.icon {
     padding-bottom: 0%;
   }
   .padding-5 {
-    padding: 5% 10% 5% 10%;
+    padding: 5% 7% 5% 7%;
   }
 
 }
@@ -440,4 +434,13 @@ img.icon {
   .justify {
     width: 40%;
   }
+  .padding-5 {
+    padding: 5% 15% 0 15%;
+  }
+
+  .header-img {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
 }

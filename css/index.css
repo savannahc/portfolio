@@ -1,7 +1,7 @@
 
 /*work*/
 
-.grid-item {
+/*.grid-item {
   height: 200px;
   text-align: left;
   padding-top: 20%;
@@ -10,12 +10,18 @@
 #project1 {
   background-image: url("../images/banner.png");
   background-position: center;
+}*/
+header h1 {
+  text-align: center;
 }
-
 
 #work {
   margin: 5rem 0 2rem 0;
     text-align: center;
+}
+#work h2{
+  margin-bottom: 2rem;
+
 }
 
 /*About Section*/
@@ -23,9 +29,12 @@
   margin: 5rem 0 2rem 0;
   text-align: center;
 }
+#about h2 {
+  margin-bottom: 0;
+}
 
 #about button {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 #contact {
