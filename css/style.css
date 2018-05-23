@@ -123,6 +123,7 @@ li {
 
 a:hover {
   color: #98b1fb;
+  cursor: pointer;
 }
 
 figure {
@@ -173,6 +174,7 @@ button {
 
 button:hover {
   background-color: darkgrey;
+  cursor: pointer;
 }
 
 /*highlight grey box*/
@@ -204,6 +206,10 @@ button:hover {
   width: 70%;
 }
 
+.eighty {
+  width: 89%
+}
+
 .ninety {
   width: 98%;
 }
@@ -218,10 +224,6 @@ button:hover {
 
 .logos {
   height: 100px;
-}
-
-.emailflow-mobile {
-  width: 60%;
 }
 
 .shadow {
@@ -339,15 +341,17 @@ img.icon {
     font-size: 16px;
   }
 
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
   .grid-container-2, .grid-container-3, .grid-container-4, .grid-container-5, .grid-container-6 {
     display: block;
   }
-  .hide {
-    display: none;
-  }
-  .show {
-    display: inherit;
-  }
+
   header {
     width: 100%;
     margin-bottom: 0px;
@@ -365,13 +369,20 @@ img.icon {
   nav img {
     height: 50px;
   }
-
   #summary {
     margin-top: 15%;
   }
   .header-img {
     padding-left: 2%;
     padding-right: 2%;
+    width: 75%;
+  }
+  #gif {
+    padding-left: 12%;
+  }
+  .userflow {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .padding-3 {
     padding: 15% 5% 15% 5%;
@@ -383,6 +394,17 @@ img.icon {
 
   .padding-5 {
     padding: 5%;
+  }
+
+  .hide {
+    display: none;
+  }
+  .show {
+    display: inherit;
+  }
+  .eighty {
+    width: 75%;
+    margin-bottom: 1rem;
   }
 }
 
@@ -406,6 +428,10 @@ img.icon {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .userflow {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .padding-4 {
     padding-top: 0%;
     padding-bottom: 0%;
@@ -414,11 +440,19 @@ img.icon {
     padding: 5% 7% 5% 7%;
   }
 
+  .hide {
+    display: none;
+  }
+  .show {
+    display: inherit;
+  }
+
 }
 
 /*desktop*/
 
 @media only screen and (min-width: 800px) {
+
   .grid-container-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -431,16 +465,31 @@ img.icon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .grid-container-7 {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
   .justify {
     width: 40%;
   }
   .padding-5 {
     padding: 5% 15% 0 15%;
   }
-
   .header-img {
     padding-left: 20%;
     padding-right: 20%;
   }
+  .userflow {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 
+@media only screen and (min-width: 900px) {
+  .hide {
+    display: inherit;
+  }
+  .show {
+    display: none;
+  }
 }
