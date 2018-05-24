@@ -211,6 +211,10 @@ button:hover {
   margin: 1rem;
 }
 
+.image-container {
+  padding: 2rem;
+}
+
 /*img sizes*/
 .twenty {
   width: 55%;
@@ -434,6 +438,8 @@ img.icon {
   }
   .eighty {
     width: 75%;
+    margin-left: 12%;
+    margin-right: 10%;
     margin-bottom: 1rem;
   }
   .height {
@@ -442,11 +448,19 @@ img.icon {
   .sm-height {
     height: 350px;
   }
+  #casestudy-logo {
+    width: 250px;
+  }
 }
 
 /*Tablet*/
 
 @media only screen and (min-width: 601px) {
+  .grid-container-5 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+
   .grid-container-2, .grid-container-3, {
     display: block;
   }
@@ -484,12 +498,14 @@ img.icon {
   .sm-height {
     height: 500px;
   }
+  #casestudy-logo {
+    width: 350px;
+  }
 }
 
 /*desktop*/
 
 @media only screen and (min-width: 800px) {
-
   .grid-container-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -501,6 +517,10 @@ img.icon {
   .grid-container-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid-container-5 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
   }
   .grid-container-7 {
     display: grid;
@@ -525,6 +545,12 @@ img.icon {
   }
   .sm-height {
     height: 550px;
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: inherit;
   }
 }
 
