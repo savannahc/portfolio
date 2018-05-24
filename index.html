@@ -46,7 +46,7 @@
 
   <!--Header-->
   <header class="grid-container-5">
-    <div class="grid-item2 padding-3">
+    <div class="grid-item2 padding-3" id="title">
       <h1>Hi! I’m Savannah, an entrepreneurial Product Designer based in NYC. I use design to build a fairer world.</h1>
     </div>
   </header>
@@ -56,14 +56,20 @@
   <section id="work">
       <div class="grid-container-3">
         <div class="grid-item2" id="header-text">
-          <strong><h2>featured project</h2></strong>
+          <strong><h5>FEATURED PROJECT</h5></strong>
           <img src="images/fmn_logo.png" class="twenty"><br><br>
           <h4>Link Saving Tools are graveyards for what you forgot to read. Forget Me Not helps you remember.</h4>
-          <a href="casestudy1.html"><button>read the case study</button></a>
+          <a href="casestudy1.html"><button class="margin-bottom">read the case study</button></a>
         </div>
       </div>
-      <div class="header-img">
-          <br><br><br><img src="images/forget_me_not.gif" class="ninety">
+      <div class="header-img"><!--div class="header-img">display: flex; justify-content: center; width 97%;-->
+          <img src="images/forget_me_not.gif" class="height margin-bottom" id="banner"> <!--class="ninety margin-bottom">-->
+      </div>
+      <div class="grid-container-3">
+        <div class="grid-item2" id="header-text">
+          <strong><h5>OTHER WORK</h5></strong>
+        <p>A few samples of side projects and freelance work: <br>A <a href="https://drive.google.com/file/d/0B6anWF-_yQBdbnV5ajVqcHM0THp5Rk5FNTdwQzVab01HejFr/view?usp=sharing" target="_blank">rebrand of Craigslist</a>, including a <a href="https://drive.google.com/file/d/0B6anWF-_yQBdOXQ1U3dNSTdfNGs/view" target="_blank">redesign of their homepage.</a> A <a href="https://drive.google.com/file/d/0B6anWF-_yQBdNTEzUnlNY2w4WGJEUG4tNDFfbHFpU21wNHcw/view?usp=sharing" target="_blank">print poster</a> for a writer's exhibit of her work. A few websites for various clients: <a href="http://krnutrition.com" target="_blank">krnutrition.com</a>, <a href="https://www.sisunlaw.com/" target="_blank">sisunlaw.com</a>, <a href="http://authorbrianwray.com" target="_blank">authorbrianwray.com</a></p>
+        </div>
       </div>
   </section>
   <!--About Me Section-->
@@ -71,13 +77,13 @@
 
 
     <section id="about" class="griditem-1">
-      <strong><h2>see what makes me tick</h2></strong>
+      <strong><h5>SEE WHAT MAKES ME TICK</h5></strong>
       <a href="about.html"><button>read my bio</button></a>
       <a href="about.html"><button>see my resume</button></a>
     </section>
     <!--Contact Me Section-->
     <section id="contact" class="griditem-2">
-      <strong><h2>get in touch</h2></strong>
+      <strong><h5>GET IN TOUCH</h5></strong>
       <form method="POST" action="https://formspree.io/info@savannahcarlin.com">
         <input class="justify" type="text" name="name" placeholder="your name"></input>
         <input class="justify" type="text" name="email" placeholder="your email"></input>

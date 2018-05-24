@@ -6,14 +6,3 @@
 #define img {
   padding: 2rem 0;
 }
-
-/*deliver*/
-a {
-  text-decoration: underline;
-  text-decoration-color: #98b1fb;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #98b1fb;
-}

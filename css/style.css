@@ -4,7 +4,6 @@ body {
   font-size: 18px;
   color: #333333;
 }
-
 /*Nav Bar*/
 
 nav {
@@ -46,6 +45,11 @@ nav img {
 
 #header-text {
   text-align: center;
+}
+
+#title {
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 /*footer*/
@@ -91,12 +95,20 @@ h3 {
 
 h4 {
   font-size: 1.41rem;
-  line-height: 1.6rem;
+  line-height: 2.2rem;
 }
 
 h5 {
-  font-weight: normal;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
   line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+h6 {
+  font-size: 2rem;
 }
 
 p {
@@ -112,9 +124,20 @@ em {
   font-style: italic;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: inherit;
+}
+
+a {
+  color: #333333;
+  text-decoration: underline;
+  text-decoration-color: #98b1fb;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #98b1fb;
 }
 
 li {
@@ -173,7 +196,7 @@ button {
 }
 
 button:hover {
-  background-color: darkgrey;
+  background-color: #6e80b7;
   cursor: pointer;
 }
 
@@ -185,8 +208,7 @@ button:hover {
   border-radius: 5px;
   box-shadow: 3px 3px 3px lightgrey;
   padding: 2rem;
-  margin-top: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 
 /*img sizes*/
@@ -211,7 +233,7 @@ button:hover {
 }
 
 .ninety {
-  width: 98%;
+  width: 99%;
 }
 
 .hundred {
@@ -228,6 +250,10 @@ button:hover {
 
 .shadow {
   box-shadow: 3px 3px 3px lightgrey;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
 }
 
 /*grid*/
@@ -333,6 +359,10 @@ img.icon {
   margin: 2rem .5rem 2rem .5rem;
 }
 
+#gif {
+  padding: 0 10% 0 10%;
+}
+
 /*Mobile*/
 
 @media only screen and (max-width: 600px) {
@@ -372,13 +402,13 @@ img.icon {
   #summary {
     margin-top: 15%;
   }
-  .header-img {
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 75%;
+.header-img {
+    display: flex;
+    justify-content: center;
   }
-  #gif {
-    padding-left: 12%;
+
+  #banner {
+    width: 99%;
   }
   .userflow {
     padding-left: 10%;
@@ -393,7 +423,7 @@ img.icon {
   }
 
   .padding-5 {
-    padding: 5%;
+    margin: 5%;
   }
 
   .hide {
@@ -405,6 +435,12 @@ img.icon {
   .eighty {
     width: 75%;
     margin-bottom: 1rem;
+  }
+  .height {
+    height: 350px;
+  }
+  .sm-height {
+    height: 350px;
   }
 }
 
@@ -424,10 +460,6 @@ img.icon {
   nav.black-background.grid-container-3 {
     display: flex;
   }
-  .header-img {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
   .userflow {
     padding-left: 5%;
     padding-right: 5%;
@@ -437,7 +469,7 @@ img.icon {
     padding-bottom: 0%;
   }
   .padding-5 {
-    padding: 5% 7% 5% 7%;
+    margin: 5% 5% 5% 5%;
   }
 
   .hide {
@@ -446,7 +478,12 @@ img.icon {
   .show {
     display: inherit;
   }
-
+  .height {
+    height: 500px;
+  }
+  .sm-height {
+    height: 500px;
+  }
 }
 
 /*desktop*/
@@ -473,15 +510,21 @@ img.icon {
     width: 60%;
   }
   .padding-5 {
-    padding: 5% 15% 0 15%;
+    margin: 5% 15% 0 15%;
   }
   .header-img {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
   }
   .userflow {
     padding-left: 20%;
     padding-right: 20%;
+  }
+  .height {
+    height: 550px;
+  }
+  .sm-height {
+    height: 550px;
   }
 }
 
@@ -491,5 +534,11 @@ img.icon {
   }
   .show {
     display: none;
+  }
+  .height {
+    height: 650px;
+  }
+  .sm-height {
+    height: 550px;
   }
 }
